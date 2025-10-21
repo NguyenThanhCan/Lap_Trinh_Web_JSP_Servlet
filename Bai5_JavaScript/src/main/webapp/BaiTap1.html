@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài tập JS</title>
+</head>
+<body>
+
+<input type="text" id="name">
+<p id="output">Xin chào: </p>
+
+<script>
+  // Lấy phần tử
+  const nameInput = document.getElementById("name");
+  const output = document.getElementById("output");
+
+  // Gắn sự kiện hiện đại
+  nameInput.addEventListener("input", () => {
+    const name = nameInput.value.trim();
+    output.textContent = name ? `Xin chào: ${name}` : "Xin chào:";
+  });
+</script>
+
+</body>
+</html>

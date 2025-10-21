@@ -1,0 +1,10 @@
+# Bỏ qua thư mục cấu hình Eclipse
+.metadata/
+
+# Các thư mục tạm của Eclipse / Tomcat
+Servers/
+.settings/
+bin/
+*.log
+.classpath
+.project
